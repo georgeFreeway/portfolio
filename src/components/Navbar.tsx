@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <nav className='bg-gray-900'>
+            <h1>Obi Tech</h1>
+        </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
