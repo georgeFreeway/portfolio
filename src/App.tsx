@@ -1,5 +1,5 @@
-import { Navbar } from "./components";
-import { Hero, About, Education } from './pages'
+import { Navbar, Socials } from "./components";
+import { Hero, About, Education, Experience, Contact } from './pages'
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
       <Hero />
       <About />
       <Education />
+      <Experience />
+      <Socials />
+      <Contact />
     </div>
   );
 }
