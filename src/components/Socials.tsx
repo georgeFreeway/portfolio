@@ -8,7 +8,7 @@ const Socials = () => {
             id: 1,
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30} />
+                    LinkedIn <FaLinkedin size={30} color='black' />
                 </>
             ),
             href: 'https://www.linkedin.com/in/george-okafor-1b5006189/',
@@ -18,7 +18,7 @@ const Socials = () => {
             id: 2,
             child: (
                 <>
-                    Github <FaGithub size={30} />
+                    Github <FaGithub size={30} color='black' />
                 </>
             ),
             href: 'https://github.com/georgeFreeway',
@@ -27,7 +27,7 @@ const Socials = () => {
             id: 3,
             child: (
                 <>
-                    Download Resume <BsFillPersonLinesFill size={30} />
+                    Download Resume <BsFillPersonLinesFill size={30} color='black' />
                 </>
             ),
             href: '/resume.pdf',
@@ -48,7 +48,7 @@ const Socials = () => {
                     >
                         <a
                             href={link.href}
-                            className="flex justify-between items-center w-full text-white"
+                            className="flex justify-between items-center w-full text-black"
                             download={link.download}
                             target="_blank"
                             rel="noreferrer"

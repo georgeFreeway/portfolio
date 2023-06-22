@@ -70,7 +70,7 @@ const Education = () => {
     return (
         <div
             data-name="education"
-            className="w-full py-32 md:h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+            className="w-full py-32 md:h-screen bg-white text-black"
             id="education"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -82,13 +82,13 @@ const Education = () => {
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {education.map((items) => (
-                        <div key={items.id} className="shadow-md shadow-gray-600 rounded-lg p-4">
+                        <div key={items.id} className="shadow-md shadow-gray-600 rounded-lg p-4 hover:scale-105 duration-500">
                             <div className="">
-                                <p>{items.course}</p>
-                                <p>{items.school}</p>
-                                <p>{items.certification}</p>
-                                <p>{items.year}</p>
-                                <p>{items.status}</p>
+                                <p className='text-2xl'>{items.course}</p>
+                                <p className='font-bold font-serif'>{items.school}</p>
+                                <p className='text-sm font-semibold'>{items.certification}</p>
+                                <p className='text-xs font-bold'>{items.year}</p>
+                                <p className='text-xs font-extrabold'>{items.status}</p>
                             </div>
                         </div>
                     ))}
