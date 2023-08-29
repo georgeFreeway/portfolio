@@ -35,8 +35,8 @@ const Hero = () => {
 
                 <div>
                     <img
-                        src='/images/obi2.jpg'
-                        alt="fix-later"
+                        src='https://res.cloudinary.com/ds1ll9kkv/image/upload/v1693310065/obi2_emsafw.jpg'
+                        alt="obi"
                         className="rounded-2xl mx-auto w2/3 md:w-96"
                     />
                 </div>
